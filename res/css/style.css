@@ -1,0 +1,176 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.card-img {
+  width: 85vw !important;
+  height: 65vh;
+  object-fit: cover;
+}
+.card {
+  width: 85vw;
+  margin: 4rem auto;
+  height: fit-content;
+}
+h1 {
+  margin: 2rem !important;
+  text-align: center;
+}
+.news-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  max-height: 6rem;
+}
+.news-img {
+  height: 70vh;
+  margin: 3rem 0;
+  text-align: center;
+}
+.news-thumbnail {
+  width: 85vw;
+  height: 100%;
+  object-fit: cover;
+}
+.register-form {
+  width: 80vw;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  margin: 3rem auto;
+  border: 2px solid rgba(50, 50, 50, 0.2);
+  border-radius: 2em;
+  box-shadow: 2px 5px 5px gray;
+}
+.form-group {
+  margin: 2rem 0;
+}
+.submit-btn {
+  float: right;
+}
+label {
+  margin-bottom: 0.25rem;
+}
+nav p {
+  color: white;
+}
+textarea {
+  height: 33vh;
+}
+nav .btn {
+  width: 10rem;
+  margin-right: 1rem;
+}
+.card-img-overlay {
+  background-color: rgba(50, 50, 50, 0.3);
+}
+.list-group {
+  width: 80vw;
+  margin: 0 auto;
+}
+.des {
+  padding: 2rem;
+  padding-bottom: 5rem;
+  background-color: whitesmoke;
+}
+.des p {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: justify;
+}
+.des h1 {
+  margin: 0 0 2rem 0 !important;
+}
+.add-user {
+  float: right;
+  margin: 2rem;
+}
+.ticket {
+  height: 40vh;
+  margin-bottom: 2rem;
+}
+.ticket-img {
+  flex: 30%;
+}
+.ticket-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ticket-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 70%;
+}
+.ticket-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  flex: 100%;
+}
+.ticket * {
+  padding: 0.125rem 0.5rem;
+}
+.ticket .form-group {
+  margin: 0;
+}
+.status-change select {
+  margin-right: 0.5rem;
+}
+.status-change {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .register-form {
+    width: 95vw;
+    padding: 0.5rem;
+    padding-bottom: 4em;
+  }
+  .submit-btn {
+    float: none;
+    margin: 0 auto;
+  }
+  nav button {
+    display: block !important;
+  }
+  .list-group {
+    width: 95vw;
+  }
+  .ticket {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .add-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-info * {
+    margin: 5px auto;
+    display: block !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .users {
+    overflow-x: scroll;
+  }
+}
+.users {
+  width: 95vw;
+  margin: 2rem auto;
+}
+td {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#hilfe {
+  padding: 2rem;
+  text-align: justify;
+}
